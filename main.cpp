@@ -27,7 +27,7 @@ void RaccoltaFondi(float & budget){
 void PrevisioneBugdget(float budget){
     srand(time(NULL));
     int perc;
-    perc = random() % 30 - 10;
+    perc = random() % 31 - 10;
     perc = (budget * perc)/100;
     budget = budget + perc;
     cout<<"La previsione del budget è: "<< budget<<endl;
@@ -44,7 +44,7 @@ int main() {
     srand(time(NULL));
     float budget_attule;
     string cond = "";
-    budget_attule = random () % 900 + 100;
+    budget_attule = random () % 901 + 100;
     do{
         cout<<"\nBudget: "<<budget_attule<<endl;
         cond = InputSegno();
