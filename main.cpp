@@ -37,7 +37,7 @@ float SpesaImprevista(float budget){
     float budget_nuovo;
     cout<<"Inserire il valore della spesa imprevista: ";
     cin>>budget_nuovo;
-    return budget_nuovo = budget + budget_nuovo;
+    return budget_nuovo = budget - budget_nuovo;
 }
 
 int main() {
